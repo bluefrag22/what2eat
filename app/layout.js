@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "What2EAt — Nigerian Food Recommendations by Budget",
-  description: "Discover the perfect Nigerian meal based on your budget. What2EAt helps you find affordable, delicious dishes—from street snacks to local soups—fast and easy.",
+  description:
+    "Discover the perfect Nigerian meal based on your budget. What2EAt helps you find affordable, delicious dishes—from street snacks to local soups—fast and easy.",
 };
-
 
 export default function RootLayout({ children }) {
   return (
@@ -28,3 +28,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
